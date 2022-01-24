@@ -1,0 +1,76 @@
+body{
+    min-height: 100vh;
+    background-image: url(../leaderboard-images/bullseye-gradient.svg);
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ 
+ body>div{
+     width:96vw;
+     height: 100vh;
+     border-right: 2px white solid;
+ }
+ 
+ .wh-circle{
+     width: 5vw;
+     height:5vw;
+     border-radius: 50%;
+     background-color: white;
+     position: absolute;
+     right: 0.1vw;
+     top:50%;
+ }
+ 
+ .wh-header{  
+     margin-top:4vh;
+ }
+ 
+ .wh-horizontal{
+     list-style-type: none;
+     width: 88vw;
+     height: 10vh;
+     margin-left: 2vw;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: black;
+     font-family: 'Source Sans Pro', sans-serif;
+     background: wheat;
+     border-radius: 10px;
+     border: 1px solid white;
+ }
+ 
+ .wh-header ul{
+     font-size: 1.5rem;
+     background: linear-gradient(to right, #485563, #29323c);
+     color: white;
+ }
+ 
+ 
+ .wh-rank,.wh-avatar,.wh-time,.wh-ques-solved,.wh-status{
+     width: 10vw;
+     text-align: center;
+ }
+ 
+ .wh-team{
+     width: 50vw;
+     text-align: center;
+ }
+ 
+ .wh-team p,.wh-status p{
+     margin:0px;
+ }
+ 
+ .wh-team span p:first-of-type{
+     font-size: 1.2rem;
+ }
+ 
+ .wh-line{
+     height: 100vh;
+     border-right: 1px solid white;
+ 
+ }
+ .curr-pos{
+     background-color: thistle;
+ }
